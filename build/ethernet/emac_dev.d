@@ -33,7 +33,7 @@ emac_dev.o: F:/esp32_bm/esp-idf/components/ethernet/emac_dev.c \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/emac_reg_v2.h \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/emac_ex_reg.h \
  F:/esp32_bm/esp-idf/components/log/include/esp_log.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/driver/include/driver/gpio.h \
  F:/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
  F:/esp32_bm/esp-idf/components/newlib/include/assert.h \
@@ -111,7 +111,7 @@ F:/esp32_bm/esp-idf/components/esp32/include/soc/emac_ex_reg.h:
 
 F:/esp32_bm/esp-idf/components/log/include/esp_log.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/driver/include/driver/gpio.h:
 

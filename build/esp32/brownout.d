@@ -21,7 +21,7 @@ brownout.o: F:/esp32_bm/esp-idf/components/esp32/brownout.c \
  F:/esp32_bm/esp-idf/components/newlib/include/stdlib.h \
  F:/esp32_bm/esp-idf/components/newlib/include/machine/stdlib.h \
  F:/esp32_bm/esp-idf/components/newlib/include/alloca.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/rtc_cntl_reg.h \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/soc.h
@@ -70,7 +70,7 @@ F:/esp32_bm/esp-idf/components/newlib/include/machine/stdlib.h:
 
 F:/esp32_bm/esp-idf/components/newlib/include/alloca.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
 

@@ -29,7 +29,7 @@ ledc.o: F:/esp32_bm/esp-idf/components/driver/ledc.c \
  F:/esp32_bm/esp-idf/components/newlib/include/machine/_types.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/lock.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  F:/esp32_bm/esp-idf/components/newlib/include/stdlib.h \
  F:/esp32_bm/esp-idf/components/newlib/include/_ansi.h \
@@ -126,7 +126,7 @@ F:/esp32_bm/esp-idf/components/newlib/include/sys/lock.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

@@ -31,7 +31,7 @@ phy_init.o: F:/esp32_bm/esp-idf/components/esp32/phy_init.c \
  F:/esp32_bm/esp-idf/components/esp32/include/esp_deepsleep.h \
  F:/esp32_bm/esp-idf/components/esp32/phy.h \
  F:/esp32_bm/esp-idf/components/log/include/esp_log.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/nvs_flash/include/nvs.h \
  F:/esp32_bm/esp-idf/components/esp32/phy_init_data.h
 
@@ -99,7 +99,7 @@ F:/esp32_bm/esp-idf/components/esp32/phy.h:
 
 F:/esp32_bm/esp-idf/components/log/include/esp_log.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/nvs_flash/include/nvs.h:
 

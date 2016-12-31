@@ -28,7 +28,7 @@ apps/sntp/sntp.o: F:/esp32_bm/esp-idf/components/lwip/apps/sntp/sntp.c \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/_default_fcntl.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/stat.h \
  F:/esp32_bm/esp-idf/components/esp32/include/esp_task.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/debug.h \
  F:/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/arch.h \
  F:/esp32_bm/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
@@ -150,7 +150,7 @@ F:/esp32_bm/esp-idf/components/newlib/include/sys/stat.h:
 
 F:/esp32_bm/esp-idf/components/esp32/include/esp_task.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 

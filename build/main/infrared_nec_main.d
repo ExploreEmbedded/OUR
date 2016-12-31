@@ -1,5 +1,4 @@
-infrared_nec_main.o: \
- F:/esp32_bm/Open_Universal_Remote/main/infrared_nec_main.c \
+infrared_nec_main.o: F:/esp32_bm/OUR/main/infrared_nec_main.c \
  F:/esp32_bm/esp-idf/components/newlib/include/stdio.h \
  F:/esp32_bm/esp-idf/components/newlib/include/_ansi.h \
  F:/esp32_bm/esp-idf/components/newlib/include/newlib.h \
@@ -21,7 +20,7 @@ infrared_nec_main.o: \
  F:/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/hal.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -118,7 +117,7 @@ F:/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

@@ -10,7 +10,7 @@ cpu_freq.o: F:/esp32_bm/esp-idf/components/esp32/cpu_freq.c \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/cdefs.h \
  F:/esp32_bm/esp-idf/components/esp32/include/esp_attr.h \
  F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/esp32/phy.h \
  F:/esp32_bm/esp-idf/components/esp32/include/esp_phy_init.h \
  F:/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
@@ -44,7 +44,7 @@ F:/esp32_bm/esp-idf/components/esp32/include/esp_attr.h:
 
 F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/esp32/phy.h:
 

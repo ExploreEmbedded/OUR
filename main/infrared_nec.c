@@ -21,7 +21,7 @@
 static const char* NEC_TAG = "NEC";
 
 //CHOOSE SELF TEST OR NORMAL TEST
-#define RMT_RX_SELF_TEST   1	
+#define RMT_RX_SELF_TEST   0
 
 /******************************************************/
 /*****                SELF TEST:                  *****/
@@ -35,7 +35,7 @@ static const char* NEC_TAG = "NEC";
 #else
 //Test with infrared LED, we have to enable carrier for transmitter
 //When testing via IR led, the receiver waveform is usually active-low.
-#define RMT_RX_ACTIVE_LEVEL  1   /*!< If we connect with a IR receiver, the data is active low */
+#define RMT_RX_ACTIVE_LEVEL  0   /*!< If we connect with a IR receiver, the data is active low */
 #define RMT_TX_CARRIER_EN    1   /*!< Enable carrier for IR transmitter test with IR led */
 #endif
 
@@ -54,7 +54,7 @@ static const char* NEC_TAG = "NEC";
 #define NEC_BIT_ZERO_HIGH_US   560                         /*!< NEC protocol data bit 0: positive 0.56ms */
 #define NEC_BIT_ZERO_LOW_US   (1120-NEC_BIT_ZERO_HIGH_US)  /*!< NEC protocol data bit 0: negative 0.56ms */
 #define NEC_BIT_END            560                         /*!< NEC protocol end: positive 0.56ms */
-#define NEC_BIT_MARGIN         20                          /*!< NEC parse margin time */
+#define NEC_BIT_MARGIN         200                          /*!< NEC parse margin time */
 
 #define NEC_ITEM_DURATION(d)  ((d & 0x7fff)*10/RMT_TICK_10_US)  /*!< Parse duration time from memory register value */
 #define NEC_DATA_ITEM_NUM   34  /*!< NEC code item number: header + 32bit data + end */
@@ -113,6 +113,7 @@ inline bool nec_check_in_range(int duration_ticks, int target_us, int margin_us)
         && ( NEC_ITEM_DURATION(duration_ticks) > (target_us - margin_us))) {
         return true;
     } else {
+		//printf("NEC not in range\n\r");
         return false;
     }
 }
@@ -162,21 +163,31 @@ static bool nec_bit_zero_if(rmt_item32_t* item)
  */
 static int nec_parse_items(rmt_item32_t* item, int item_num, uint16_t* addr, uint16_t* data)
 {
+	//printf("trying to make sense of NEC items\n\r");	
     int w_len = item_num;
+	
     if(w_len < NEC_DATA_ITEM_NUM) {
+		//printf("len %d less than 34\n\r", w_len);
         return -1;
     }
+	
     int i = 0, j = 0;
     if(!nec_header_if(item++)) {
+		//printf("no nec header\n\r");
         return -1;
     }
+	//printf("valid NEC data, parsing channel and data\n\r");
     uint16_t addr_t = 0;
     for(j = 0; j < 16; j++) {
         if(nec_bit_one_if(item)) {
             addr_t |= (1 << j);
+			//printf("1");
         } else if(nec_bit_zero_if(item)) {
             addr_t |= (0 << j);
+			//printf("0");
+
         } else {
+			//printf("invalid nec bit\n\r");
             return -1;
         }
         item++;
@@ -186,8 +197,10 @@ static int nec_parse_items(rmt_item32_t* item, int item_num, uint16_t* addr, uin
     for(j = 0; j < 16; j++) {
         if(nec_bit_one_if(item)) {
             data_t |= (1 << j);
+			//printf("1");
         } else if(nec_bit_zero_if(item)) {
             data_t |= (0 << j);
+			//printf("0");
         } else {
             return -1;
         }
@@ -196,6 +209,7 @@ static int nec_parse_items(rmt_item32_t* item, int item_num, uint16_t* addr, uin
     }
     *addr = addr_t;
     *data = data_t;
+	//printf("\n\r");
     return i;
 }
 
@@ -287,8 +301,9 @@ void rmt_nec_rx_task()
     //get RMT RX ringbuffer
     rmt_get_ringbuf_handler(channel, &rb);
     rmt_rx_start(channel, 1);
-	printf("checking for rb\n");
+	//printf("no data in Receive buffer\n\r");
     while(rb) {
+		//printf("RX_TASK:data in the ring buffer\n\r");
         size_t rx_size = 0;
         //try to receive data from ringbuffer.
         //RMT driver will push all the data it receives to its ringbuffer.
@@ -299,20 +314,23 @@ void rmt_nec_rx_task()
             uint16_t rmt_cmd;
             int offset = 0;
             while(1) {
-				printf("parsing data from ring buffer\n");
+				//printf("RX_TASK:parsing data in Ring Buffer\n\r");
                 //parse data value from ringbuffer.
                 int res = nec_parse_items(item + offset, rx_size / 4 - offset, &rmt_addr, &rmt_cmd);
                 if(res > 0) {
                     offset += res + 1;
                     ESP_LOGI(NEC_TAG, "RMT RCV --- addr: 0x%04x cmd: 0x%04x", rmt_addr, rmt_cmd);
                 } else {
+					//printf("Invalid NEC Data\n\r");
                     break;
                 }
             }
             //after parsing the data, return spaces to ringbuffer.
             vRingbufferReturnItem(rb, (void*) item);
         } else {
-			printf("no data found full\n");
+			//printf("no NEC data in ring buffer\n\r");
+			
+			//vRingbufferReturnItem(rb, (void*) item);
             break;
         }
     }
@@ -325,8 +343,7 @@ void rmt_nec_rx_task()
  */
 void rmt_nec_tx_task()
 {
-   printf("transmission will wait for 1000 secs\n\r");	
-   vTaskDelay(1000);
+    vTaskDelay(100);
     rmt_tx_init();
     esp_log_level_set(NEC_TAG, ESP_LOG_INFO);
     int channel = RMT_TX_CHANNEL;

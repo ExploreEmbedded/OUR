@@ -30,7 +30,7 @@ bluedroid/stack/l2cap/l2c_csm.o: \
  F:/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h \
  F:/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_trace.h \
  F:/esp32_bm/esp-idf/components/log/include/esp_log.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
  F:/esp32_bm/esp-idf/components/bt/bluedroid/gki/include/gki.h \
@@ -148,7 +148,7 @@ F:/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_trace.h:
 
 F:/esp32_bm/esp-idf/components/log/include/esp_log.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 

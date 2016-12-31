@@ -10,7 +10,7 @@ xtensa_init.o: F:/esp32_bm/esp-idf/components/freertos/xtensa_init.c \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/config/system.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/simcall.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
@@ -58,7 +58,7 @@ F:/esp32_bm/esp-idf/components/esp32/include/xtensa/simcall.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

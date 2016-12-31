@@ -29,7 +29,7 @@ port/esp_bignum.o: \
  F:/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h \
  F:/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/bignum.h \
  F:/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h \
  F:/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -132,7 +132,7 @@ F:/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/bignum.h:
 
 F:/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h:
 

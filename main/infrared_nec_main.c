@@ -19,5 +19,6 @@ extern void rmt_nec_rx_task();
 void app_main()
 {
     xTaskCreate(rmt_nec_rx_task, "rmt_nec_rx_task", 2048, NULL, 10, NULL);
-    xTaskCreate(rmt_nec_tx_task, "rmt_nec_tx_task", 2048, NULL, 10, NULL);
+	printf("in main loop");
+   // xTaskCreate(rmt_nec_tx_task, "rmt_nec_tx_task", 2048, NULL, 10, NULL);
 }

@@ -23,7 +23,7 @@ task_wdt.o: F:/esp32_bm/esp-idf/components/esp32/task_wdt.c \
  F:/esp32_bm/esp-idf/components/newlib/include/alloca.h \
  F:/esp32_bm/esp-idf/components/newlib/include/string.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/string.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -118,7 +118,7 @@ F:/esp32_bm/esp-idf/components/newlib/include/string.h:
 
 F:/esp32_bm/esp-idf/components/newlib/include/sys/string.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 

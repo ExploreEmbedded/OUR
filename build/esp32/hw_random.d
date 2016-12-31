@@ -19,7 +19,7 @@ hw_random.o: F:/esp32_bm/esp-idf/components/esp32/hw_random.c \
  F:/esp32_bm/esp-idf/components/esp32/include/esp_attr.h \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/wdev_reg.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/hal.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -77,7 +77,7 @@ F:/esp32_bm/esp-idf/components/esp32/include/soc/wdev_reg.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

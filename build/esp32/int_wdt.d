@@ -1,5 +1,5 @@
 int_wdt.o: F:/esp32_bm/esp-idf/components/esp32/int_wdt.c \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  F:/esp32_bm/esp-idf/components/newlib/include/machine/_default_types.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/features.h \
@@ -64,7 +64,7 @@ int_wdt.o: F:/esp32_bm/esp-idf/components/esp32/int_wdt.c \
  F:/esp32_bm/esp-idf/components/driver/include/driver/timer.h \
  F:/esp32_bm/esp-idf/components/esp32/include/esp_int_wdt.h
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/newlib/include/stdint.h:
 

@@ -22,7 +22,7 @@ bluedroid/gki/gki_buffer.o: \
  F:/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
  F:/esp32_bm/esp-idf/components/log/include/esp_log.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
  F:/esp32_bm/esp-idf/components/bt/bluedroid/osi/include/allocator.h \
@@ -111,7 +111,7 @@ F:/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h:
 
 F:/esp32_bm/esp-idf/components/log/include/esp_log.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 

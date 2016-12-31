@@ -32,7 +32,7 @@ uart.o: F:/esp32_bm/esp-idf/components/driver/uart.c \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
  F:/esp32_bm/esp-idf/components/log/include/esp_log.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
  F:/esp32_bm/esp-idf/components/newlib/include/malloc.h \
  F:/esp32_bm/esp-idf/components/newlib/include/machine/malloc.h \
@@ -141,7 +141,7 @@ F:/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
 
 F:/esp32_bm/esp-idf/components/log/include/esp_log.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 

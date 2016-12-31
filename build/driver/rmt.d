@@ -22,7 +22,7 @@ rmt.o: F:/esp32_bm/esp-idf/components/driver/rmt.c \
  F:/esp32_bm/esp-idf/components/newlib/include/alloca.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/hal.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -119,7 +119,7 @@ F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

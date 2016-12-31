@@ -28,7 +28,7 @@ partition.o: F:/esp32_bm/esp-idf/components/spi_flash/partition.c \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
  F:/esp32_bm/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  F:/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/spi_flash/include/esp_partition.h \
  F:/esp32_bm/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  F:/esp32_bm/esp-idf/components/log/include/esp_log.h \
@@ -94,7 +94,7 @@ F:/esp32_bm/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
 F:/esp32_bm/esp-idf/components/esp32/include/esp_err.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/spi_flash/include/esp_partition.h:
 

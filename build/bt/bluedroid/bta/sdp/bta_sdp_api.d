@@ -26,7 +26,7 @@ bluedroid/bta/sdp/bta_sdp_api.o: \
  F:/esp32_bm/esp-idf/components/newlib/include/machine/types.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h \
  F:/esp32_bm/esp-idf/components/log/include/esp_log.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
  F:/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/btm_api.h \
@@ -136,7 +136,7 @@ F:/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h:
 
 F:/esp32_bm/esp-idf/components/log/include/esp_log.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 

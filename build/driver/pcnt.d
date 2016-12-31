@@ -4,7 +4,7 @@ pcnt.o: F:/esp32_bm/esp-idf/components/driver/pcnt.c \
  F:/esp32_bm/esp-idf/components/newlib/include/machine/_default_types.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/features.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
  F:/esp32_bm/esp-idf/components/driver/include/driver/pcnt.h \
@@ -76,7 +76,7 @@ F:/esp32_bm/esp-idf/components/newlib/include/sys/features.h:
 
 F:/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 

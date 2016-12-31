@@ -17,7 +17,7 @@ heap_alloc_caps.o: F:/esp32_bm/esp-idf/components/esp32/heap_alloc_caps.c \
  F:/esp32_bm/esp-idf/components/newlib/include/machine/_types.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/lock.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h \
+ F:/esp32_bm/OUR/build/include/sdkconfig.h \
  F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/hal.h \
  F:/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -83,7 +83,7 @@ F:/esp32_bm/esp-idf/components/newlib/include/sys/lock.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
 
 F:/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 

@@ -27,7 +27,7 @@ vfs_uart.o: F:/esp32_bm/esp-idf/components/vfs/vfs_uart.c \
  F:/esp32_bm/esp-idf/components/esp32/include/esp_attr.h \
  F:/esp32_bm/esp-idf/components/newlib/include/sys/errno.h \
  F:/esp32_bm/esp-idf/components/esp32/include/soc/uart_struct.h \
- F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h
+ F:/esp32_bm/OUR/build/include/sdkconfig.h
 
 F:/esp32_bm/esp-idf/components/newlib/include/string.h:
 
@@ -85,4 +85,4 @@ F:/esp32_bm/esp-idf/components/newlib/include/sys/errno.h:
 
 F:/esp32_bm/esp-idf/components/esp32/include/soc/uart_struct.h:
 
-F:/esp32_bm/Open_Universal_Remote/build/include/sdkconfig.h:
+F:/esp32_bm/OUR/build/include/sdkconfig.h:
